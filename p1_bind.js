@@ -11,4 +11,4 @@ talkFunction(); //undefined, .this refers to nothing
 
 // use bind(), now .this refers to dog object
 let boundFunction = talkFunction.bind(dog);
-boundFunction(); //woof
+boundFunction() //woof
